@@ -1,17 +1,18 @@
 <script setup>
-import { ref } from 'vue';
-
-const count = ref(0);
+import DataBinding from './components/DataBinding.vue';
+import ConditionalRendering from './components/ConditionalRendering.vue';
+import ListRendering from './components/ListRendering.vue';
+import TabUI from './components/TabUI.vue';
 </script>
 
 <template>
-  <div @click="count++" class="btn-cnt">Count is {{ count }}</div>
-  <button @click="count = 0">Count Reset</button>
+  <h1>APP Component</h1>
+  <!-- <DataBinding></DataBinding> -->
+  <!-- <ConditionalRendering /> -->
+  <!-- <ListRendering /> -->
+  <TabUI />
 </template>
 
 <style>
-  button {
-    width: 100px;
-    margin: 0 auto;
-  }
+
 </style>
