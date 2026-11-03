@@ -3,6 +3,12 @@ import DataBinding from './components/DataBinding.vue';
 import ConditionalRendering from './components/ConditionalRendering.vue';
 import ListRendering from './components/ListRendering.vue';
 import TabUI from './components/TabUI.vue';
+import Watchers from './components/Watchers.vue';
+import Parent from './components/props/Parent.vue';
+import SlotParent from './components/slot/SlotParent.vue';
+import CEParent from './components/componentEvent/CEParent.vue';
+import LifeCycle from './components/LifeCycle.vue';
+import CardList from './components/CardList.vue';
 </script>
 
 <template>
@@ -10,7 +16,13 @@ import TabUI from './components/TabUI.vue';
   <!-- <DataBinding></DataBinding> -->
   <!-- <ConditionalRendering /> -->
   <!-- <ListRendering /> -->
-  <TabUI />
+  <!-- <TabUI /> -->
+  <!-- <Watchers /> -->
+  <!-- <Parent /> -->
+  <!-- <SlotParent /> -->
+  <!-- <CEParent /> -->
+  <!-- <LifeCycle /> -->
+  <CardList />
 </template>
 
 <style>
