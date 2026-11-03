@@ -10,7 +10,7 @@ import { onBeforeMount, ref } from 'vue';
 const cards = ref([]);
 const page = ref(1);
 const limit = 3;
-const idx = ref(0);
+const idx = ref(1);
 const cardContainer = ref(null);
 
 const getNextPage = async () => {
